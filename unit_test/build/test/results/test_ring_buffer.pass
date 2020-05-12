@@ -1,0 +1,62 @@
+---
+:source:
+  :path: test
+  :file: test_ring_buffer.c
+:successes:
+- :test: test_claim_all_buffers
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_claim_too_many_buffers
+  :line: 36
+  :message: ''
+  :unity_test_time: 0
+- :test: 'test_return_valid_buffer '
+  :line: 46
+  :message: ''
+  :unity_test_time: 0
+- :test: 'test_return_valid_buffer_multiple_times '
+  :line: 56
+  :message: ''
+  :unity_test_time: 0
+- :test: 'test_return_invalid_buffer '
+  :line: 75
+  :message: ''
+  :unity_test_time: 0
+- :test: test_init_buffer
+  :line: 98
+  :message: ''
+  :unity_test_time: 0
+- :test: test_claim_init_buffer
+  :line: 107
+  :message: ''
+  :unity_test_time: 0
+- :test: test_init_NULL_buffer
+  :line: 115
+  :message: ''
+  :unity_test_time: 0
+- :test: test_buffer_add_element
+  :line: 120
+  :message: ''
+  :unity_test_time: 0
+- :test: test_buffer_add_remove_element
+  :line: 130
+  :message: ''
+  :unity_test_time: 0
+- :test: test_buffer_fill
+  :line: 141
+  :message: ''
+  :unity_test_time: 0
+- :test: test_buffer_fill_empty
+  :line: 158
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 12
+  :passed: 12
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.30656400001316797
